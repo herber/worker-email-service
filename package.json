@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
+    "deploy": "wrangler pages deploy ./pages"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.9",
+    "hono": "^3.7.2",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "wrangler": "^3.9.0"
+  }
+}
